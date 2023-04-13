@@ -1,0 +1,31 @@
+/***   p03ex03.c ***/
+/***   ps20      ***/
+
+#include <stdio.h>
+
+int main()
+{
+	int x, y;
+	printf("2”‚ð“ü—Í--> ");
+	scanf("%d %d", &x, &y);
+	if (x > y)
+	{
+		printf("%d > %d", x, y);
+	}
+	else if (x < y)
+	{
+		printf("%d < %d", x, y);
+	}
+	else
+	{
+		printf("%d = %d", x, y);
+	}
+
+	return 0;
+}
+
+/*** Œ‹‰Ê ***
+
+
+
+*************/

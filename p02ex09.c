@@ -5,21 +5,21 @@
 
 int main()
 {
-	int n, h;
+	int n, h, i, j;
 	printf("Šï”‚ð“ü—Í>>");
 	scanf("%d", &n);
 	h = n / 2;
-	for (int i = 0; i < h + 1; i++)
+	for (i = 0; i < h + 1; i++)
 	{
-		for (int j = 0; j < h; j++)
+		for (j = 0; j < h; j++)
 		{
 			printf("-");
 		}
-		for (int j = 0; j < i * 2 + 1; j++)
+		for (j = 0; j < i * 2 + 1; j++)
 		{
 			printf("*");
 		}
-		for (int j = 0; j < h; j++)
+		for (j = 0; j < h; j++)
 		{
 			printf("-");
 		}

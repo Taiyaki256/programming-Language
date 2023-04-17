@@ -5,15 +5,16 @@
 
 int main()
 {
-	int factorial1 = 1;
-	int factorial2 = 1 * 2;
-	int factorial3 = 1 * 2 * 3;
-	int factorial4 = 1 * 2 * 3 * 4;
-	int factorial5 = 1 * 2 * 3 * 4 * 5;
-	int factorial6 = 1 * 2 * 3 * 4 * 5 * 6;
-	int factorial7 = 1 * 2 * 3 * 4 * 5 * 6 * 7;
-	int factorial8 = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8;
-	int factorial9 = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9;
+	int factorial1,factorial2,factorial3,factorial4,factorial5,factorial6,factorial7,factorial8,factorial9;
+	factorial1 = 1;
+	factorial2 = 1 * 2;
+	factorial3 = 1 * 2 * 3;
+	factorial4 = 1 * 2 * 3 * 4;
+	factorial5 = 1 * 2 * 3 * 4 * 5;
+	factorial6 = 1 * 2 * 3 * 4 * 5 * 6;
+	factorial7 = 1 * 2 * 3 * 4 * 5 * 6 * 7;
+	factorial8 = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8;
+	factorial9 = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9;
 	printf("factorial1 = %6d\n", factorial1);
 	printf("factorial2 = %6d\n", factorial2);
 	printf("factorial3 = %6d\n", factorial3);

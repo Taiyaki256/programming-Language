@@ -5,37 +5,37 @@
 
 int main()
 {
-	int n;
+	int n, i, j, h;
 	printf("Šï”‚ð“ü—Í>>");
 	scanf("%d", &n);
-	int h = n / 2;
-	for (int i = 0; i < h + 1; i++)
+	h = n / 2;
+	for (i = 0; i < h + 1; i++)
 	{
-		for (int j = 0; j < h - i; j++)
+		for (j = 0; j < h - i; j++)
 		{
 			printf("-");
 		}
-		for (int j = 0; j < i * 2 + 1; j++)
+		for (j = 0; j < i * 2 + 1; j++)
 		{
 			printf("*");
 		}
-		for (int j = 0; j < h - i; j++)
+		for (j = 0; j < h - i; j++)
 		{
 			printf("-");
 		}
 		printf("\n");
 	}
-	for (int i = 0; i < h; i++)
+	for (i = 0; i < h; i++)
 	{
-		for (int j = 0; j < i + 1; j++)
+		for (j = 0; j < i + 1; j++)
 		{
 			printf("-");
 		}
-		for (int j = 0; j < h - i * 2 + 2; j++)
+		for (j = 0; j < h - i * 2 + 2; j++)
 		{
 			printf("*");
 		}
-		for (int j = 0; j < i + 1; j++)
+		for (j = 0; j < i + 1; j++)
 		{
 			printf("-");
 		}

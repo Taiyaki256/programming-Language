@@ -1,4 +1,4 @@
-/***   p01ex09.c ***/
+ï»¿/***   p01ex09.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -7,19 +7,33 @@ int main()
 {
 	double radius;
 	double pi = 3.14159265358979;
-	printf("”¼Œa‚ð“ü—Í-->");
+	printf("radius-->");
 	scanf("%lf", &radius);
-	printf("‘ÌÏ %f\n", 4.0 / 3.0 * pi * radius * radius * radius);
-	printf("•\–ÊÏ %f\n", 4.0 * pi * radius * radius);
+	printf("volume %f\n", 4.0 / 3.0 * pi * radius * radius * radius);
+	printf("area %f\n", 4.0 * pi * radius * radius);
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
-2”‚ð“ü—Í--> 17 7
-17€7=2...3
+radius-->0.1
+volume 0.004189
+area 0.125664
 
-2”‚ð“ü—Í-->23 7
-23€7=3...2
+radius-->0.3
+volume 0.113097
+area 1.130973
+
+radius-->1.0
+volume 4.188790
+area 12.566371
+
+radius-->3.0
+volume 113.097336
+area 113.097336
+
+radius-->10.0
+volume 4188.790205
+area 1256.637061
 
 *************/

@@ -6,16 +6,17 @@
 int main()
 {
 	int n = 12;
+	int i, j;
 	printf("   ");
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%4d", i + 1);
 	}
 	printf("\n");
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%3d", i + 1);
-		for (int j = 0; j < n; j++)
+		for (j = 0; j < n; j++)
 		{
 			printf("%4d", (i + 1) * (j + 1));
 		}

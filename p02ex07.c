@@ -5,12 +5,12 @@
 
 int main()
 {
-	int n;
+	int n, i, j;
 	printf("®”‚ð“ü—Í>>");
 	scanf("%d", &n);
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (int j = 0; j + i < n; j++)
+		for (j = 0; j + i < n; j++)
 		{
 			printf("*");
 		}

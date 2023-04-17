@@ -5,12 +5,12 @@
 
 int main()
 {
-	int row, colunm;
+	int row, colunm, i, j;
 	printf("row, colunm>>");
 	scanf("%d %d", &row, &colunm);
-	for (int i = 0; i < row; i++)
+	for (i = 0; i < row; i++)
 	{
-		for (int j = 0; j < colunm; j++)
+		for (j = 0; j < colunm; j++)
 		{
 			printf("*");
 		}

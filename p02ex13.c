@@ -5,9 +5,9 @@
 
 int main()
 {
-	int x;
+	int x, count;
 	int sum = 0;
-	for (int count = 0; count < 10; count++)
+	for (count = 0; count < 10; count++)
 	{
 		printf("x= ");
 		scanf("%d", &x);

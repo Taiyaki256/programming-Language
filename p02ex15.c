@@ -19,7 +19,7 @@ int main()
 		scanf("%d", &x);
 	}
 	printf("sum= %d\n", sum);
-	average = sum / 10.0;
+	average = sum / (double)num;
 	printf("average= %.1f\n", average);
 
 	return 0;
@@ -48,6 +48,6 @@ x= 4
 x= 5
 x= -1
 sum= 15
-average= 1.5
+average= 3.0
 
 *************/

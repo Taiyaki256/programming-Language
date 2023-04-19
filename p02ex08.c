@@ -1,4 +1,4 @@
-/***   p02ex08.c ***/
+ï»¿/***   p02ex08.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -6,7 +6,7 @@
 int main()
 {
 	int row, colunm, i, j;
-	printf("row, colunm>>");
+	printf("row, colunm= ");
 	scanf("%d %d", &row, &colunm);
 	for (i = 0; i < row; i++)
 	{
@@ -20,8 +20,19 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+row, colunm= 3 5
+*****
+*****
+*****
 
+row, colunm= 6 7
+*******
+*******
+*******
+*******
+*******
+*******
 
 *************/

@@ -1,4 +1,4 @@
-/***   p02ex14.c ***/
+ï»¿/***   p02ex14.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -6,6 +6,7 @@
 int main()
 {
 	int x, count;
+	double average;
 	int sum = 0;
 	for (count = 0; count < 10; count++)
 	{
@@ -14,14 +15,51 @@ int main()
 		sum += x;
 	}
 	printf("sum= %d\n", sum);
-	double average = sum / 10.0;
+	average = sum / 10.0;
 	printf("average= %.1f\n", average);
 
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+x= 1
+x= 2
+x= 3
+x= 4
+x= 5
+x= 6
+x= 7
+x= 8
+x= 9
+x= 10
+sum= 55
+average= 5.5
 
+x= 11
+x= 12
+x= 13
+x= 14
+x= 15
+x= 16
+x= 17
+x= 18
+x= 19
+x= 20
+sum= 155
+average= 15.5
+
+x= 123
+x= 321
+x= 234
+x= 432
+x= 345
+x= 543
+x= 456
+x= 654
+x= 567
+x= 765
+sum= 4440
+average= 444.0
 
 *************/

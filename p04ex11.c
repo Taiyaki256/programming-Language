@@ -1,4 +1,4 @@
-/***   p04ex11.c ***/
+ï»¿/***   p04ex11.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main()
 	{
 		j++;
 	}
-	while (y[j] != '\0')
+	while (y[k] != '\0')
 	{
 		k++;
 	}
@@ -47,8 +47,22 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+str1 = robot
+str2 = robotics
+robot robotics => not equal
 
+str1 = robotics
+str2 = robot
+robotics robot => not equal
+
+str1 = robot
+str2 = robot
+robot robot => equal
+
+str1 = time
+str2 = game
+time game => not equal
 
 *************/

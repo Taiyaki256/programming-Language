@@ -1,4 +1,4 @@
-/***   p04ex07.c ***/
+ï»¿/***   p04ex07.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -24,8 +24,21 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+keyin string => abcdefg
+abcdefg => 1
 
+keyin string => eabcdefg
+eabcdefg => 2
+
+keyin string => abcdefge
+abcdefge => 2
+
+keyin string => I'm getting closer to my home.
+I'm getting closer to my home. => 3
+
+keyin string => Tokyo Japan
+Tokyo Japan => 0
 
 *************/

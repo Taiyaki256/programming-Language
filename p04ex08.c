@@ -1,4 +1,4 @@
-/***   p04ex08.c ***/
+ï»¿/***   p04ex08.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -23,8 +23,14 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+str1 = robot
+str2 = atom
+robot atom => not equal
 
+str1 = robot
+str2 = rocket
+robot rocket => equal
 
 *************/

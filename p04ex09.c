@@ -1,4 +1,4 @@
-/***   p04ex09.c ***/
+ï»¿/***   p04ex09.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -32,8 +32,18 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæžœ ***
 
+str1 = robot
+str2 = root
+robot root => not equal
 
+str1 = speaker
+str2 = speech
+speaker speech => equal
+
+str1 = time
+str2 = game
+time game => not equal
 
 *************/

@@ -1,4 +1,4 @@
-/***   p04ex02.c ***/
+ï»¿/***   p04ex02.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -20,8 +20,18 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæœ ***
 
+month day = 1 25
+25
 
+month day = 3 2
+61
+
+month day = 4 10
+100
+
+month day = 12 31
+365
 
 *************/

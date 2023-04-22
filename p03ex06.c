@@ -1,4 +1,4 @@
-/***   p03ex06.c ***/
+Ôªø/***   p03ex06.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -28,8 +28,18 @@ int main()
 	return 0;
 }
 
-/*** åãâ  ***
+/*** ÁµêÊûú ***
 
+n= 38
+38: a multiple of 2 but not a multiple of 3
 
+n= 42
+42: a multiple of 6
+
+n= 53
+53: not a multiple of 2 or a multiple of 3
+
+n= 63
+63: a multiple of 3 but not a multiple of 2
 
 *************/

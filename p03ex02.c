@@ -1,4 +1,4 @@
-/***   p03ex02.c ***/
+ï»¿/***   p03ex02.c ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -19,8 +19,21 @@ int main()
 	return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæœ ***
 
+x= 1
+odd number
 
+x= 2
+even number
+
+x= 3
+odd number
+
+x= 4
+even number
+
+x= 5
+odd number
 
 *************/

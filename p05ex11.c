@@ -6,7 +6,8 @@
 int countHit(char s1[], char s2[])
 {
     int hit = 0;
-    for (int i = 0; i < 4; i++)
+    int i;
+    for (i = 0; i < 4; i++)
     {
         if (s1[i] == s2[i])
         {

@@ -40,4 +40,9 @@ int main()
 
 /*** 結果 ***
 
+--!exercises!--
+--!sesicrexe!--
+--!java!--
+--!avaj!--
+
 *************/

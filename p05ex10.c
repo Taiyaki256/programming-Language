@@ -6,10 +6,7 @@
 
 int checkString(char s[])
 {
-    /*１）文字は4文字のみで構成されている。
-２）文字はすべて数字だけで出来ている。（「0123456789」のみで出来ている）
-３）４つの文字は互いに異なっている。*/
-    int i;
+    int i, j;
     int len = 0;
     while (s[len] != '\0')
     {
@@ -28,7 +25,7 @@ int checkString(char s[])
     }
     for (i = 0; i < len; i++)
     {
-        for (int j = i + 1; j < len; j++)
+        for (j = i + 1; j < len; j++)
         {
             if (s[i] == s[j])
             {

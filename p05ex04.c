@@ -6,7 +6,8 @@
 double average(int array[], int size)
 {
     double ans = 0.0;
-    for (int i = 0; i < size; i++)
+    int i;
+    for (i = 0; i < size; i++)
     {
         ans += array[i];
     }

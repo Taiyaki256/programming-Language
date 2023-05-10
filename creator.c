@@ -1,4 +1,4 @@
-Ôªø#include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -6,20 +6,52 @@ int main()
 	char filename[20];
 	int small = 1;
 	int big = 1;
-	printf("nÁ´†„Åã„Çâ„ÅÆ„Éï„Ç°„Ç§„É´„Çí‰ΩúÊàê n => ");
+	int smallLimit = 0;
+	int num = 0;
+	printf("Ç†Ç»ÇΩÇÃèoê»î‘çÜÇì¸óÕ num => ");
+	scanf("%d", &num);
+	printf("nèÕÇ©ÇÁÇÃÉtÉ@ÉCÉãÇçÏê¨ n => ");
 	scanf("%d", &big);
-	printf("mÁØÄ„Åã„Çâ„ÅÆ„Éï„Ç°„Ç§„É´„Çí‰ΩúÊàê m => ");
+	printf("mêﬂÇ©ÇÁÇÃÉtÉ@ÉCÉãÇçÏê¨ m => ");
 	scanf("%d", &small);
-	for (i = big; i <= 8; i++)
+	for (j = big; j <= 8; j++)
 	{
-
+		switch (big)
+		{
+		case 1:
+			smallLimit = 10;
+			break;
+		case 2:
+			smallLimit = 17;
+			break;
+		case 3:
+			smallLimit = 11;
+			break;
+		case 4:
+			smallLimit = 18;
+			break;
+		case 5:
+			smallLimit = 15;
+			break;
+		case 6:
+			smallLimit = 3;
+			break;
+		case 7:
+			smallLimit = 7;
+			break;
+		case 8:
+			smallLimit = 3;
+			break;
+		default:
+			break;
+		}
 		for (i = small; i <= 15; i++)
 		{
 			small = 1;
-			sprintf(filename, "p05ex%02d.c", i);
+			sprintf(filename, "p%02dex%02d.c", j, i);
 			FILE *file = fopen(filename, "w");
 			fprintf(file, "/***   %s   ***/\n", filename);
-			fprintf(file, "/***   ps20      ***/\n");
+			fprintf(file, "/***   ps%02d      ***/\n", num);
 			fprintf(file, "\n");
 			fprintf(file, "#include <stdio.h>\n");
 			fprintf(file, "\n");
@@ -29,7 +61,7 @@ int main()
 			fprintf(file, "    return 0;\n");
 			fprintf(file, "}\n");
 			fprintf(file, "\n");
-			fprintf(file, "/*** ÁµêÊûú ***\n");
+			fprintf(file, "/*** åãâ  ***\n");
 			fprintf(file, "\n");
 			fprintf(file, "*************/\n");
 			fclose(file);

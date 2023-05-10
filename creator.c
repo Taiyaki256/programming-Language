@@ -8,15 +8,15 @@ int main()
 	int big = 1;
 	int smallLimit = 0;
 	int num = 0;
-	printf("‚ ‚È‚½‚ÌoÈ”Ô†‚ð“ü—Í num => ");
+	printf("ã‚ãªãŸã®å‡ºå¸­ç•ªå·ã‚’å…¥åŠ› num => ");
 	scanf("%d", &num);
-	printf("nÍ‚©‚ç‚Ìƒtƒ@ƒCƒ‹‚ðì¬ n => ");
+	printf("nç« ã‹ã‚‰ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆ n => ");
 	scanf("%d", &big);
-	printf("mß‚©‚ç‚Ìƒtƒ@ƒCƒ‹‚ðì¬ m => ");
+	printf("mç¯€ã‹ã‚‰ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆ m => ");
 	scanf("%d", &small);
 	for (j = big; j <= 8; j++)
 	{
-		switch (big)
+		switch (j)
 		{
 		case 1:
 			smallLimit = 10;
@@ -45,7 +45,7 @@ int main()
 		default:
 			break;
 		}
-		for (i = small; i <= 15; i++)
+		for (i = small; i <= smallLimit; i++)
 		{
 			small = 1;
 			sprintf(filename, "p%02dex%02d.c", j, i);
@@ -61,7 +61,7 @@ int main()
 			fprintf(file, "    return 0;\n");
 			fprintf(file, "}\n");
 			fprintf(file, "\n");
-			fprintf(file, "/*** Œ‹‰Ê ***\n");
+			fprintf(file, "/*** çµæžœ ***\n");
 			fprintf(file, "\n");
 			fprintf(file, "*************/\n");
 			fclose(file);

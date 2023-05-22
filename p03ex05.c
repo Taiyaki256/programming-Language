@@ -8,6 +8,7 @@ int main()
 	int x;
 	int sum = 0;
 	int num = 0;
+	double average = 0.0;
 	printf("x= ");
 	scanf("%d", &x);
 	while (0 <= x)
@@ -24,7 +25,7 @@ int main()
 	}
 
 	printf("sum= %d\n", sum);
-	double average = sum / (double)num;
+	average = sum / (double)num;
 	printf("average= %.1f\n", average);
 
 	return 0;

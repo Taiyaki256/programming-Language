@@ -7,7 +7,7 @@ int main()
 {
    int x, y1, y2, y3;
    printf("   x     y1     y2     y3\n");
-   for (x = 1; x <= 100; x++)
+   for (x = 0; x <= 100; x++)
    {
       y1 = x / 2;
       y2 = x / 3;
@@ -20,6 +20,7 @@ int main()
 /*** 結果 ***
 
    x     y1     y2     y3
+   0      0      0      0
    1      0      0      0
    2      1      0      0
    3      1      1      0

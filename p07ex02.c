@@ -1,4 +1,4 @@
-/***   p07ex02.c   ***/
+ï»¿/***   p07ex02.c   ***/
 /***   ps20      ***/
 
 #include <stdio.h>
@@ -42,18 +42,18 @@ int main()
     {
         average[j] = (double)(sum[j]) / (double)(number);
     }
-    printf("ŠwĞ”Ô† ‰pŒê ”Šw —‰È ‘Œê  ‡Œv\n");
+    printf("å­¦ç±ç•ªå· è‹±èª æ•°å­¦ ç†ç§‘ å›½èª  åˆè¨ˆ\n");
     for (i = 0; i < number; i++)
     {
         printf("%5d    %3d   %3d  %3d  %3d   %3d\n", i, point[i][0], point[i][1], point[i][2], point[i][3], point[i][4]);
     }
-    printf(" •½‹Ï     %.1f  %.1f %.1f %.1f %.1f\n", average[0], average[1], average[2], average[3], average[4]);
+    printf(" å¹³å‡     %.1f  %.1f %.1f %.1f %.1f\n", average[0], average[1], average[2], average[3], average[4]);
     return 0;
 }
 
-/*** Œ‹‰Ê ***
+/*** çµæœ ***
 
-ŠwĞ”Ô† ‰pŒê ”Šw —‰È ‘Œê  ‡Œv
+å­¦ç±ç•ªå· è‹±èª æ•°å­¦ ç†ç§‘ å›½èª  åˆè¨ˆ
     0     70    59   56   66   251
     1    100   100  100  100   400
     2     68    90   96   94   348
@@ -96,6 +96,6 @@ int main()
    39     55    51   50   48   204
    40     97   100  100  100   397
    41     87    83  100   85   355
- •½‹Ï     75.7  77.5 76.0 74.5 303.7
+ å¹³å‡     75.7  77.5 76.0 74.5 303.7
 
 *************/

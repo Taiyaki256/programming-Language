@@ -1,5 +1,5 @@
 ﻿/***   p06ex02.c   ***/
-/***   ps20      ***/
+/* s22087 2J20 Shimazaki Taiga */
 
 #include <stdio.h>
 

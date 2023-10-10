@@ -1,5 +1,5 @@
 ﻿/***   p08ex01.c   ***/
-/* s22087 2J20 Shimazaki Taiga */
+/***   ps20      ***/
 
 #include <stdio.h>
 #include <math.h>

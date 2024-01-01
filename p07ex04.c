@@ -55,12 +55,24 @@ int main()
     while (fgets(textbuffer, 512, fp) != NULL)
     {
         // remove \n
-        textbuffer[strlen(textbuffer) - 1] = '\0';
+        printf("%s", textbuffer);
+        if (textbuffer[strlen(textbuffer) - 1] == '\n')
+        {
+            textbuffer[strlen(textbuffer) - 1] = '\0';
+        }
+        else
+        {
+            textbuffer[strlen(textbuffer)] = '\0';
+        }
+        printf("%s", textbuffer);
         reverseString(textbuffer);
+        printf("%s", textbuffer);
         // add \n
+        textbuffer[strlen(textbuffer) + 1] = '\0';
         textbuffer[strlen(textbuffer)] = '\n';
-        textbuffer[strlen(textbuffer)] = '\0';
+        printf("%s", textbuffer);
         fputs(textbuffer, fpw);
+        printf("!");
     }
     fclose(fp);
     fclose(fpw);

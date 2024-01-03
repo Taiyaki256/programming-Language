@@ -13,6 +13,16 @@ double TanAdd(double x, double y)
 }
 int main()
 {
-    int i;
+    double x, y;
+    printf("Enter x: ");
+    scanf("%lf", &x);
+    printf("Enter y: ");
+    scanf("%lf", &y);
+    printf("tan(x+y) = %f\n", TanAdd(x, y));
+    // isinf
+    if (isinf(TanAdd(x, y)))
+    {
+        printf("tan(x+y) is infinity\n");
+    }
     return 0;
 }

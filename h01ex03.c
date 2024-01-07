@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 double TanAdd(double x, double y)
 {
-    double PI = 3.141592;
-    if (fmod(x + y, 90) == 0)
+    double PI = M_PI;
+    if (fmod(x + y, 90.0) == 0)
     {
         return INFINITY;
     }
-    return tan((x + y) / 180 * PI);
+    return (tan(x / 180 * PI) + tan(y / 180 * PI)) / (1 - tan(x / 180 * PI) * tan(y / 180 * PI));
 }
 int main()
 {

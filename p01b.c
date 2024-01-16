@@ -3,7 +3,7 @@
 int main()
 {
     /*•Ï”éŒ¾*/
-    int intNumber;            /*“ü—Í’l*/
+    int intNumber; /*“ü—Í’l*/
     int multiple2, multiple3; /*”{”*/
 
     /*®”‚Ìæ“¾*/

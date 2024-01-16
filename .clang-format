@@ -1,0 +1,12 @@
+# デフォルト設定
+BasedOnStyle: WebKit
+
+# 初めのかっこの前に改行を入れる
+BreakBeforeBraces: Allman
+
+ColumnLimit: 200
+
+# インデント幅
+IndentWidth: 4
+
+# 自動改行させない

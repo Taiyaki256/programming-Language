@@ -1,4 +1,13 @@
 {
+  "code-runner.runInTerminal": true,
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.debugShortcut": false,
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -23,6 +32,7 @@
   },
   "files.associations": {
     "*.txt": "plaintext",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "stdio.h": "c"
   }
 }

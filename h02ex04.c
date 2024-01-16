@@ -32,7 +32,7 @@ double Median(int data[])
 
 int main()
 {
-    int data[] = {1, 2, 3, 4, 5, 6, 7, -1};
+    int data[] = { 1, 2, 3, 4, 5, 6, 7, -1 };
     printf("%lf\n", Median(data));
     return 0;
 }
